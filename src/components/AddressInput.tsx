@@ -43,7 +43,7 @@ export const AddressInput: React.FC<AddressInputProps> = ({ onAddressChange, isV
         </div>
         <div>
           <h1 className="text-2xl font-bold text-white">IPv6 Calculator</h1>
-          <p className="text-gray-400">Professional network analysis tool</p>
+          <p className="text-gray-400">network analysis tool</p>
         </div>
       </div>
 
