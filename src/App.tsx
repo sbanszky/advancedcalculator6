@@ -107,7 +107,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
-              <h3 className="text-white font-semibold mb-4">IPv6 Calculator Pro</h3>
+              <h3 className="text-white font-semibold mb-4">IPv6 Calculator </h3>
               <p className="text-gray-400 text-sm">
                 A comprehensive tool for IPv6 address analysis, subnetting, and network planning.
                 Built for network engineers, students, and professionals.
