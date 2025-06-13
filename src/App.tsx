@@ -35,7 +35,7 @@ function App() {
                 <Network className="w-8 h-8 text-white" />
               </div>
               <div>
-                <h1 className="text-2xl font-bold text-white">IPv6 Calculator Pro</h1>
+                <h1 className="text-2xl font-bold text-white">IPv6 Calculator</h1>
                 <p className="text-gray-400 text-sm">Professional network analysis & subnetting tool</p>
               </div>
             </div>
