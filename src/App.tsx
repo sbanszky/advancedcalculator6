@@ -36,7 +36,7 @@ function App() {
               </div>
               <div>
                 <h1 className="text-2xl font-bold text-white">IPv6 Calculator</h1>
-                <p className="text-gray-400 text-sm">Professional network analysis & subnetting tool</p>
+                <p className="text-gray-400 text-sm">network analysis & subnetting tool</p>
               </div>
             </div>
             <a
