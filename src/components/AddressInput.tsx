@@ -1,5 +1,5 @@
 import React, { useState, useCallback } from 'react';
-import { Calculator, Wifi, Globe, AlertCircle, CheckCircle, Copy, Download } from 'lucide-react';
+import { Globe, AlertCircle, CheckCircle, Copy } from 'lucide-react';
 
 interface AddressInputProps {
   onAddressChange: (address: string) => void;
@@ -37,16 +37,6 @@ export const AddressInput: React.FC<AddressInputProps> = ({ onAddressChange, isV
 
   return (
     <div className="bg-gray-800 rounded-xl p-6 border border-gray-700">
-      <div className="flex items-center gap-3 mb-6">
-        <div className="p-2 bg-blue-500 rounded-lg">
-          <Calculator className="w-6 h-6 text-white" />
-        </div>
-        <div>
-          <h1 className="text-2xl font-bold text-white">IPv6 Calculator</h1>
-          <p className="text-gray-400">network analysis tool</p>
-        </div>
-      </div>
-
       <div className="space-y-4">
         <div>
           <label htmlFor="ipv6-input" className="block text-sm font-medium text-gray-300 mb-2">

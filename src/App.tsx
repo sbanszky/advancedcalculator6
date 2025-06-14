@@ -27,23 +27,28 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-900">
       {/* Header */}
-      <header className="bg-gray-800 py-4 px-6">
-        <div className="flex items-center justify-between max-w-7xl mx-auto">
-          <a 
-            href="https://subnetting.online" 
-            className="text-2xl font-bold text-emerald-400 hover:text-emerald-300 transition-colors"
-          >
-            subnetting.online
-          </a>
-          <a
-            href="https://github.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="p-2 text-gray-400 hover:text-white transition-colors duration-200"
-            title="View on GitHub"
-          >
-            <Github className="w-6 h-6" />
-          </a>
+      <header className="bg-gray-800 border-b border-gray-700">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-3">
+              <div className="p-2 bg-blue-500 rounded-lg">
+                <Network className="w-8 h-8 text-white" />
+              </div>
+              <div>
+                <h1 className="text-2xl font-bold text-white">IPv6 Calculator</h1>
+                <p className="text-gray-400 text-sm">network analysis & subnetting tool</p>
+              </div>
+            </div>
+            <a
+              href="https://github.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2 text-gray-400 hover:text-white transition-colors duration-200"
+              title="View on GitHub"
+            >
+              <Github className="w-6 h-6" />
+            </a>
+          </div>
         </div>
       </header>
 
