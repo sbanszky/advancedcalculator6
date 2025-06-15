@@ -5,7 +5,7 @@ import { AddressInput } from './components/AddressInput';
 import { AddressDetails } from './components/AddressDetails';
 import { SubnettingTool } from './components/SubnettingTool';
 import { BatchProcessor } from './components/BatchProcessor';
-import { Network, Calculator, List, Globe } from 'lucide-react';
+import { Network, Calculator, List } from 'lucide-react';
 
 function App() {
   const [currentAddress, setCurrentAddress] = useState<IPv6Address>(() => 
@@ -28,11 +28,7 @@ function App() {
     <div className="min-h-screen bg-gray-900">
       {/* Header */}
       <header className="bg-gray-800 py-4 px-6">
-        <div className="max-w-7xl mx-auto flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <Globe className="w-5 h-5 text-blue-400" />
-            <span className="text-lg font-semibold text-blue-400">IPv6 Calculator</span>
-          </div>
+        <div className="text-center">
           <a
             href="https://subnetting.online"
             className="text-2xl font-bold text-emerald-400 hover:text-emerald-300 transition-colors"
