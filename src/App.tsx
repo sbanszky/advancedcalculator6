@@ -5,7 +5,7 @@ import { AddressInput } from './components/AddressInput';
 import { AddressDetails } from './components/AddressDetails';
 import { SubnettingTool } from './components/SubnettingTool';
 import { BatchProcessor } from './components/BatchProcessor';
-import { Network, Calculator, List, Github } from 'lucide-react';
+import { Network, Calculator, List } from 'lucide-react';
 
 function App() {
   const [currentAddress, setCurrentAddress] = useState<IPv6Address>(() => 
@@ -41,25 +41,14 @@ function App() {
       {/* Main Header - IPv6 Calculator */}
       <header className="bg-gray-800 border-b border-gray-700">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-3">
-              <div className="p-2 bg-blue-500 rounded-lg">
-                <Network className="w-8 h-8 text-white" />
-              </div>
-              <div>
-                <h1 className="text-2xl font-bold text-white">IPv6 Calculator</h1>
-                <p className="text-gray-400 text-sm">network analysis & subnetting tool</p>
-              </div>
+          <div className="flex items-center gap-3">
+            <div className="p-2 bg-blue-500 rounded-lg">
+              <Network className="w-8 h-8 text-white" />
             </div>
-            <a
-              href="https://github.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="p-2 text-gray-400 hover:text-white transition-colors duration-200"
-              title="View on GitHub"
-            >
-              <Github className="w-6 h-6" />
-            </a>
+            <div>
+              <h1 className="text-2xl font-bold text-white">IPv6 Calculator</h1>
+              <p className="text-gray-400 text-sm">network analysis & subnetting tool</p>
+            </div>
           </div>
         </div>
       </header>
