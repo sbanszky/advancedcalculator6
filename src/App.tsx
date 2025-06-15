@@ -26,7 +26,19 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gray-900">
-      {/* Header */}
+      {/* Top Header - subnetting.online */}
+      <header className="bg-gray-800 py-4 px-6">
+        <div className="text-center">
+          <a
+            href="https://subnetting.online"
+            className="text-2xl font-bold text-emerald-400 hover:text-emerald-300 transition-colors"
+          >
+            subnetting.online
+          </a>
+        </div>
+      </header>
+
+      {/* Main Header - IPv6 Calculator */}
       <header className="bg-gray-800 border-b border-gray-700">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex items-center justify-between">
